@@ -15,49 +15,50 @@ while True:
             print("Displaying the color Black.")
 
         elif user_input.lower() == 'green':
-             print("Displaying the color Green.")
-             Green.on()
-             sleep(4)
-             Green.off()
+            print("Displaying the color Green.")
+            Green.on()
+            sleep(4)
+            Green.off()
 
         elif  user_input.lower() == 'blue':
-              print("Displaying the color Blue.")
-              Blue.on()
-              sleep(4)
-              Blue.off()
+            print("Displaying the color Blue.")
+            Blue.on()
+            sleep(4)
+            Blue.off()
+
         elif  user_input.lower() == 'cyan':
-              print("Displaying the color Cyan.")
-              Blue.on()
-              Green.on()
-              sleep(4)
-              Blue.off()
-              Green.off()
+            print("Displaying the color Cyan.")
+            Blue.on()
+            Green.on()
+            sleep(4)
+            Blue.off()
+            Green.off()
 
         elif  user_input.lower() == 'orange':
-              print("Displaying the color Orange.")
-              Red.on()
-              Yellow.on()
-              sleep(4)
-              Red.off()
-              Yellow.off()
+            print("Displaying the color Orange.")
+            Red.on()
+            Yellow.on()
+            sleep(4)
+            Red.off()
+            Yellow.off()
 
         elif  user_input.lower() == 'yellow':
-              print("Displaying the color Yellow.")
-              Yellow.on()
-              sleep(4)
-              Yellow.off()
+            print("Displaying the color Yellow.")
+            Yellow.on()
+            sleep(4)
+            Yellow.off()
 
         elif  user_input.lower() == 'red':
-              print("Displaying the color Red.")
-              Red.on()
-              sleep(4)
-              Red.off()
+            print("Displaying the color Red.")
+            Red.on()
+            sleep(4)
+            Red.off()
 
         elif  user_input.lower() == 'white':
-              print("Displaying the color White.")
-              White.on()
-              sleep(4)
-              White.off()
+            print("Displaying the color White.")
+            White.on()
+            sleep(4)
+            White.off()
 
         else:
-              print("Color is not found on the color wheel. Please enter a color that is on the color wheel.")
+            print("Color is not found on the color wheel. Please enter a color that is on the color wheel.")
