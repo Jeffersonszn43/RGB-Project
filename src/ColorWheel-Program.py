@@ -15,7 +15,7 @@ while True:
 
      elif user_input.lower() == 'green':
           print("Turning to Green on the color wheel.")
-          servo.angle = 30 
+          servo.angle = 27 
 
      elif user_input.lower() == 'blue':
           print("Turning to Blue on the color wheel.")
