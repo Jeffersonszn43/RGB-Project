@@ -68,4 +68,4 @@ while True:
             print("Displaying the number 7!")
             
       else:
-            print("The color you have chosen is not a color on the color wheel. Please enter a color on the color wheel.")
+            print("The color you have chosen is not a color on the color wheel. Please enter a color on the color wheel: ")
