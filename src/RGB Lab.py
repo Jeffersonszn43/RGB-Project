@@ -27,6 +27,18 @@ while True:
      if user_input.lower() == 'black':
           print("Displaying the color Black.")
           servo.angle = 0
+          Z.off()
+          Y.off()
+          X.off()
+          W.off()
+
+     elif user_input.lower() == 'green':
+          print("Displaying the color Green.")
+          servo.angle = 33
+          Z.off()
+          Y.off()
+          X.off()
+          W.on()
           
 
 
