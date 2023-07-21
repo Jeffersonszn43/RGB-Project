@@ -61,4 +61,4 @@ while True:
             White.off()
 
         else:
-            print("Color is not found on the color wheel. Please enter a color that is on the color wheel.")
+            print("Color is not found on the color wheel. Please enter a color that is on the color wheel: ")
