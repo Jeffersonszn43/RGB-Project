@@ -42,4 +42,4 @@ while True:
           servo.angle = 180
 
      else:
-          print("That is not a valid color. Please select a color on the color wheel.")
+          print("That is not a valid color. Please select a color on the color wheel: ")
