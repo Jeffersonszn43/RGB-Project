@@ -2,10 +2,10 @@ from gpiozero import LED
 from time import sleep
 
 #We are going from lsb to msb
-W = LED(17)
-X = LED(27)
-Y = LED(22)
-Z = LED(23)
+W = LED(17) #Pin 11
+X = LED(27) #Pin 13
+Y = LED(22) #Pin 15
+Z = LED(23) #Pin 16
 	
 while True:
       #Here we are asking the user to enter a color from the color wheel to display the number of that color.
