@@ -7,6 +7,12 @@ factory = PiGPIOFactory()
 
 servo = AngularServo(23, min_angle = 0, max_angle = 180, pin_factory = factory)  #Pin 16
 
+#We are going from lsb to msb
+W = LED(17)
+X = LED(27)
+Y = LED(22)
+Z = LED(23)
+
 
 
 while True:
