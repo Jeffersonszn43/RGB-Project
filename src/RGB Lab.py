@@ -13,7 +13,11 @@ X = LED(27)
 Y = LED(22)
 Z = LED(23)
 
-
+Red = LED(17)   #Pin 11
+Green = LED(27)  #Pin 13
+Blue = LED(22)  #Pin 15
+White = LED(23)   #Pin 16
+Yellow = LED(24)   #Pin 18
 
 while True:
      #Here we are asking the user to enter a color on the wheel and depending on what color the user enters, the servo will turn to that color.
