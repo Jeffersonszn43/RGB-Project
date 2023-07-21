@@ -39,6 +39,81 @@ while True:
           Y.off()
           X.off()
           W.on()
-          
+          Green.on()
+          sleep(5)
+          Green.off()
 
+     elif user_input.lower() == 'blue':
+          print("Displaying the color Blue.")
+          servo.angle = 54
+          Z.off()
+          Y.off()
+          X.on()
+          W.off()
+          Blue.on()
+          sleep(5)
+          Blue.off()
 
+     elif user_input.lower() == 'cyan':
+          print("Displaying the color Cyan.")
+          servo.angle = 76
+          Z.off()
+          Y.off()
+          X.on()
+          W.on()
+          Blue.on()
+          Green.on()
+          sleep(5)
+          Blue.off()
+          Green.off()
+
+     elif user_input.lower() == 'orange':
+          print("Displaying the color Orange.")
+          servo.angle = 101
+          Z.off()
+          Y.on()
+          X.off()
+          W.off()
+          Red.on()
+          Yellow.on()
+          sleep(5)
+          Red.off()
+          Yellow.off()
+     
+     elif user_input.lower() == 'yellow':
+          print("Displaying the color Yellow.")
+          servo.angle = 126
+          Z.off()
+          Y.on()
+          X.off()
+          W.on()
+          Yellow.on()
+          sleep(5)
+          Yellow.off()
+
+     elif user_input.lower() == 'red':
+          print("Displaying the color Red.")
+          servo.angle = 150
+          Z.off()
+          Y.on()
+          X.on()
+          W.off()
+          Red.on()
+          sleep(5)
+          Red.off()
+
+     elif user_input.lower() == 'white':
+          print("Displaying the color White.")
+          servo.angle = 180
+          Z.off()
+          Y.on()
+          X.on()
+          W.on()
+          White.on()
+          sleep(5)
+          White.off()
+
+     else:
+          print("The color you have entered is not on the color wheel! Please enter a color that is on the color wheel: ")
+         
+         
