@@ -18,3 +18,9 @@
 ##### - Assorted male to female wires (used for connections between components and Raspberry Pi)
 ##### - GPIO Pins on the Raspberry Pi
 
+## Usage
+##### 1. First run the Python program in Thonny on the Raspberry Pi
+##### 2. When prompted, enter one of the following colors: "White", "Red", "Yellow", "Orange", "Cyan", "Blue", "Green", "Black."
+##### 3. The Servo Motor will turn the arrow to the selected color on the wheel.
+##### 4. The seven-segment display will show the corresponding number for the selected color.
+##### 5. One or two of the LEDs will light up for the selected color through the small box.
