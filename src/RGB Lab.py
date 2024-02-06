@@ -5,6 +5,7 @@ from gpiozero import AngularServo
 from gpiozero.pins.pigpio import PiGPIOFactory
 factory = PiGPIOFactory() 
 
+# min_pulse_width converted from 500us to 0.0005s and max_pulse_width converted from 2400us to 0.0024s.
 servo = AngularServo(23, min_angle = 0, max_angle = 180, pin_factory = factory)  #Pin 16
 
 #Here are the variables for the 7-Segment display. We are going from lsb to msb.
